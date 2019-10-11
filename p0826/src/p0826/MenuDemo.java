@@ -26,9 +26,9 @@ public class MenuDemo extends JFrame implements ActionListener{
 		KeyStroke key;
 		
 		JMenuBar mb = new JMenuBar();
-		JMenu m1 = new JMenu("파일");
+		JMenu m1 = new JMenu("파일(F)");
 		m1.setMnemonic(KeyEvent.VK_F);
-		JMenu m2 = new JMenu("색상");
+		JMenu m2 = new JMenu("색상(C)");
 		m2.setMnemonic(KeyEvent.VK_C);
 		
 		item = new JMenuItem("새 파일", KeyEvent.VK_N);
